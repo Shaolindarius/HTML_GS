@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Pessoas – Áreas de Risco</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Cadastro de Pessoa em Área de Risco</h1>
+    <form id="formCadastro">
+      <label>Nome completo:</label>
+      <input type="text" name="nome" required>
+
+      <label>Idade:</label>
+      <input type="number" name="idade" required>
+
+      <label>Endereço:</label>
+      <input type="text" name="endereco" required>
+
+      <label>Telefone:</label>
+      <input type="tel" name="telefone" required>
+
+      <label>Dificuldade de locomoção:</label>
+      <select name="locomocao" required>
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+      </select>
+
+      <label>Observações:</label>
+      <textarea name="observacoes"></textarea>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <a href="lista.html">→ Ver lista de cadastrados</a>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
