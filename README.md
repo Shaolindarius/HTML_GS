@@ -1,2 +1,2 @@
 # HTML_GS
-GS html principal
+GS html principal - Descreva a ideia Aqui: :)

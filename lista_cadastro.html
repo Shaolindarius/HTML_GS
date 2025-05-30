@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista de Cadastrados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Lista de Pessoas Cadastradas</h1>
+
+    <label>
+      <input type="checkbox" id="filtroLocomocao"> Mostrar apenas com dificuldade de locomoção
+    </label>
+
+    <table id="tabelaPessoas">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Endereço</th>
+          <th>Telefone</th>
+          <th>Dificuldade</th>
+          <th>Observações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dados inseridos via JS -->
+      </tbody>
+    </table>
+
+    <a href="index.html">← Voltar ao cadastro</a>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
